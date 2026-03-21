@@ -25,7 +25,7 @@ After the interview, the AI generates context files in the correct format for yo
 | Cursor | `.cursor/rules/*.mdc` | User-level rules in Settings | Markdown with YAML front matter |
 | Windsurf | `.windsurf/rules/*.md` | `global_rules.md` via Settings | Markdown (12K char limit per file) |
 
-For single-file tools (Claude Code, Gemini CLI, Antigravity, Codex CLI), combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), create one file per section.
+For single-file tools (Claude Code, Gemini CLI, Antigravity, Codex CLI), the AI will combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), it will create one file per section.
 
 ## How to use
 

@@ -7,7 +7,7 @@ A reusable prompt that helps product managers set up persistent AI context ("pro
 The prompt walks you through four sections:
 
 1. **Product Context**: vision, codenames, business models, customer segments, metrics, infrastructure, geographic footprint, features, active/paused initiatives
-2. **Terminology & Acronyms**: product, technical, business, infrastructure, platform, and organizational terms — kept consistent everywhere
+2. **Terminology & Acronyms**: product, technical, business, infrastructure, platform, and organizational terms, kept consistent everywhere
 3. **Writing Standards**: document formats (PRFAQs, PRDs, one-pagers, etc.), writing voice, metric conventions, FAQ style, PRD templates, and formatting rules
 4. **Key Decisions & Constraints**: settled strategic/product/technical/pricing decisions, things you don't do, canceled initiatives, and open questions
 

@@ -1,4 +1,4 @@
-I am a product manager. I need you to help me build a "project brain" — a set
+I am a product manager. I need you to help me build a "project brain," a set
 of persistent context files that will load automatically in every future
 conversation, so I never have to re-explain my product, terminology, decisions,
 or writing standards.
@@ -26,7 +26,7 @@ Ask me about:
 10. Paused initiatives and their expected restart criteria (so you never
     reference them as actively underway)
 
-Output format — a markdown document titled "Product Context" with sections for
+Output format: a markdown document titled "Product Context" with sections for
 each area above. Use bullet points. Include specific numbers and dates wherever
 possible. Flag paused initiatives in their own section.
 
@@ -42,7 +42,7 @@ Ask me about:
 5. Device, platform, or distribution channel terms
 6. Organizational and process terms (team names, review cadences, planning cycles)
 
-Output format — a markdown document titled "Terminology & Acronyms" organized
+Output format: a markdown document titled "Terminology & Acronyms" organized
 by category. Each entry should have the acronym/term followed by a colon and
 its definition. Add a header note: "ALWAYS use these terms consistently. Do not
 substitute alternatives."
@@ -64,7 +64,7 @@ Ask me about:
    format, metrics tables, and priority tiers.
 7. Any general formatting rules? (tables vs. prose, appendix conventions, etc.)
 
-Output format — a markdown document titled "Writing Standards" with sections for
+Output format: a markdown document titled "Writing Standards" with sections for
 Document Formats (with structural outlines for each type), Writing Style,
 Metric Conventions, FAQ Style, and General Rules. If a PRD template was
 provided, include a detailed "PRD Conventions" section.
@@ -85,7 +85,7 @@ Ask me about:
 6. Canceled initiatives (with brief rationale)
 7. Any open questions or decisions pending a deadline
 
-Output format — a markdown document titled "Key Decisions & Constraints" with
+Output format: a markdown document titled "Key Decisions & Constraints" with
 a header note: "These are standing decisions and constraints. ALWAYS respect
 these when generating content or recommendations." Organize by category. Include
 a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
@@ -165,7 +165,7 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
    **Other / generic:**
    Create four markdown files in a `.ai/context/` directory and instruct
    the user to reference them in their tool's configuration. (`.ai/context/`
-   is a suggested convention — adjust the path if your tool expects files
+   is a suggested convention; adjust the path if your tool expects files
    elsewhere.)
 
 4. Remind me that I can update these files anytime by asking the AI to make

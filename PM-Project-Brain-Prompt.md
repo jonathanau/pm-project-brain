@@ -1,29 +1,3 @@
-# Product Manager Project Brain: Setup Prompt
-
-Use this prompt with any AI coding assistant to establish persistent product context ("project brain") that loads automatically in every conversation. Copy the prompt below, paste it into your AI tool, and follow the interactive setup.
-
-## Compatible tools and where files go
-
-| Tool | Context file location | Global location | Format |
-|---|---|---|---|
-| Kiro IDE / CLI | `.kiro/steering/*.md` | `~/.kiro/steering/*.md` | Markdown with YAML front matter |
-| Claude Code | `CLAUDE.md` (project root) | `~/.claude/CLAUDE.md` | Single markdown file |
-| Gemini CLI | `GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file |
-| Antigravity | `.gemini/GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file (same as Gemini CLI) |
-| Codex CLI | `AGENTS.md` (project root) | `~/.codex/AGENTS.md` | Single markdown file |
-| Cursor | `.cursor/rules/*.mdc` | User-level rules in Settings | Markdown with YAML front matter |
-| Windsurf | `.windsurf/rules/*.md` | `global_rules.md` via Settings | Markdown (12K char limit per file) |
-
-For single-file tools (Claude Code, Gemini CLI, Antigravity, Codex CLI), combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), create one file per section.
-
----
-
-## The prompt
-
-Copy everything between the two delimiter lines below and paste it into your AI assistant.
-
-========== START COPYING HERE ==========
-
 I am a product manager. I need you to help me build a "project brain" — a set
 of persistent context files that will load automatically in every future
 conversation, so I never have to re-explain my product, terminology, decisions,
@@ -196,21 +170,3 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
 
 4. Remind me that I can update these files anytime by asking the AI to make
    changes, and that I should review them quarterly to keep them current.
-
----
-
-========== STOP COPYING HERE ==========
-
-
-## Tips for providing input
-
-- You can answer the questions conversationally, or you can share documents
-  (drag and drop, paste, or reference files) and I will extract the relevant
-  information.
-- The more specific you are with numbers, dates, and names, the more useful
-  the project brain will be.
-- If something is confidential, use [X] as a placeholder and I will preserve
-  that convention.
-- You do not need to answer every question. Skip what is not relevant and we
-  can always add more later.
-

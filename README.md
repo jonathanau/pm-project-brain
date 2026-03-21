@@ -13,21 +13,32 @@ The prompt walks you through four sections:
 
 After the interview, the AI generates context files in the correct format for your tool.
 
-## Supported tools
+## Compatible tools and where files go
 
-Kiro IDE / CLI · Claude Code · Gemini CLI · Antigravity · Codex CLI · Cursor · Windsurf
+| Tool | Context file location | Global location | Format |
+|---|---|---|---|
+| Kiro IDE / CLI | `.kiro/steering/*.md` | `~/.kiro/steering/*.md` | Markdown with YAML front matter |
+| Claude Code | `CLAUDE.md` (project root) | `~/.claude/CLAUDE.md` | Single markdown file |
+| Gemini CLI | `GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file |
+| Antigravity | `.gemini/GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file (same as Gemini CLI) |
+| Codex CLI | `AGENTS.md` (project root) | `~/.codex/AGENTS.md` | Single markdown file |
+| Cursor | `.cursor/rules/*.mdc` | User-level rules in Settings | Markdown with YAML front matter |
+| Windsurf | `.windsurf/rules/*.md` | `global_rules.md` via Settings | Markdown (12K char limit per file) |
 
-See the [compatibility table in the prompt](PM-Project-Brain-Prompt.md#compatible-tools-and-where-files-go) for file locations, global paths, and format details.
+For single-file tools (Claude Code, Gemini CLI, Antigravity, Codex CLI), combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), create one file per section.
 
 ## How to use
 
-1. Open the [prompt section of PM-Project-Brain-Prompt.md](PM-Project-Brain-Prompt.md#the-prompt)
-2. Copy everything between the `START COPYING HERE` and `STOP COPYING HERE` delimiters
-3. Paste it into your AI assistant and follow the interactive interview
-4. Review the generated files and commit them to your project repo
+1. Copy the entire contents of [PM-Project-Brain-Prompt.md](PM-Project-Brain-Prompt.md)
+2. Paste it into your AI assistant and follow the interactive interview
+3. Review the generated files and commit them to your project repo
 
 The AI will ask which tool you're using and create files in the right format and location.
 
-## Tips
+## Tips for providing input
 
-See [Tips for providing input](PM-Project-Brain-Prompt.md#tips-for-providing-input) in the prompt file.
+- You can answer the questions conversationally, or you can share documents (drag and drop, paste, or reference files) and the AI will extract the relevant information.
+- The more specific you are with numbers, dates, and names, the more useful the project brain will be.
+- If something is confidential, use [X] as a placeholder and the AI will preserve that convention.
+- You do not need to answer every question. Skip what is not relevant and you can always add more later.
+- Review your project brain quarterly to keep it current.

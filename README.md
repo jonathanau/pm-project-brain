@@ -29,7 +29,7 @@ For single-file tools (Claude Code, Gemini CLI, Antigravity, Codex CLI), combine
 
 ## How to use
 
-1. Copy the entire contents of [PM-Project-Brain-Prompt.md](PM-Project-Brain-Prompt.md)
+1. Copy the entire contents of [PM-Project-Brain-Prompt.md](PM-Project-Brain-Prompt.md?plain=1)
 2. Paste it into your AI assistant and follow the interactive interview
 3. Review the generated files and commit them to your project repo
 

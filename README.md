@@ -39,6 +39,5 @@ The AI will ask which tool you're using and create files in the right format and
 
 - You can answer the questions conversationally, or you can share documents (drag and drop, paste, or reference files) and the AI will extract the relevant information.
 - The more specific you are with numbers, dates, and names, the more useful the project brain will be.
-- If something is confidential, use [X] as a placeholder and the AI will preserve that convention.
 - You do not need to answer every question. Skip what is not relevant and you can always add more later.
 - Review your project brain quarterly to keep it current.

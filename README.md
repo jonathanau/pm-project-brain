@@ -22,10 +22,11 @@ After the interview, the AI generates context files in the correct format for yo
 | Antigravity | `.gemini/GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file (same as Gemini CLI) |
 | Gemini CLI | `GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file |
 | Cursor | `.cursor/rules/*.mdc` | User-level rules in Settings | Markdown with YAML front matter |
+| GitHub Copilot | `.github/copilot-instructions.md` | Settings > Copilot > Custom Instructions | Single markdown file |
 | Windsurf | `.windsurf/rules/*.md` | `global_rules.md` via Settings | Markdown (12K char limit per file) |
 | Kiro IDE / CLI | `.kiro/steering/*.md` | `~/.kiro/steering/*.md` | Markdown with YAML front matter |
 
-For single-file tools (Claude Code, Gemini CLI, Antigravity, Codex CLI), the AI will combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), it will create one file per section.
+For single-file tools (Claude Code, Gemini CLI, Antigravity, Codex CLI, GitHub Copilot), the AI will combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), it will create one file per section.
 
 ## How to use
 

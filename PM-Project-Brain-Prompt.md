@@ -95,7 +95,7 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
 ## After all four sections are complete
 
 1. Show me a summary of all four documents for final review.
-2. Ask me which AI tool I am using (Kiro, Claude Code, Gemini CLI, Antigravity, Codex CLI, Cursor, Windsurf, or other).
+2. Ask me which AI tool I am using (Kiro, Claude Code, Gemini CLI, Antigravity, Codex CLI, Cursor, GitHub Copilot, Windsurf, or other).
 3. Based on my answer, create the files in the correct format and location:
 
    **Kiro IDE or Kiro CLI:**
@@ -147,6 +147,12 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
    alwaysApply: true
    ---
    ```
+
+   **GitHub Copilot:**
+   Create or append to `.github/copilot-instructions.md` in the project root,
+   using H1 headers to separate the four sections. For global context, instruct
+   the user to add the content to their account or organization settings under
+   Copilot > Custom Instructions.
 
    **Windsurf:**
    Create four `.md` files in `.windsurf/rules/`:

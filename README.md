@@ -41,3 +41,7 @@ The AI will ask which tool you're using and create files in the right format and
 - The more specific you are with numbers, dates, and names, the more useful the project brain will be.
 - You do not need to answer every question. Skip what is not relevant and you can always add more later.
 - Review your project brain quarterly to keep it current.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

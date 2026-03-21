@@ -32,7 +32,7 @@ or writing standards.
 We will create four context documents through an interactive interview. Ask me
 the questions below one section at a time. After each section, show me the
 draft for my review before moving to the next. I can provide answers directly,
-or I can share documents (PRFAQs, BRDs, one-pagers, OP docs, strategy decks)
+or I can share documents (PRFAQs, PRDs, one-pagers, OP docs, strategy decks)
 for you to extract the information from.
 
 ---
@@ -49,11 +49,12 @@ Ask me about:
 7. Geographic footprint (where it's live, where it's expanding)
 8. Major features or product areas and their current status
 9. Active projects and initiatives (with owner, status, key data points)
-10. Canceled or paused initiatives (so you never reference them as active)
+10. Paused initiatives and their expected restart criteria (so you never
+    reference them as actively underway)
 
 Output format — a markdown document titled "Product Context" with sections for
 each area above. Use bullet points. Include specific numbers and dates wherever
-possible. Flag canceled initiatives in their own section.
+possible. Flag paused initiatives in their own section.
 
 ---
 
@@ -77,26 +78,26 @@ substitute alternatives."
 ## Section 3: Writing Standards
 
 Ask me about:
-1. What document types does your team write? (e.g., PRFAQs, BRDs/PRDs,
+1. What document types does your team write? (e.g., PRFAQs, PRDs,
    one-pagers, strategy docs, OP docs) For each, what is the expected structure?
 2. What is your team's writing voice? (e.g., data-driven, concise, narrative)
 3. How do you refer to your team ("we") and your users ("customers")?
 4. What are your conventions for presenting metrics? (time periods, abbreviations,
    precision)
 5. How do you structure FAQs in documents?
-6. Do you have a BRD/PRD template? If so, share it and I will extract the
+6. Do you have a PRD template? If so, share it and I will extract the
    structure, section names, conventions for user stories, acceptance criteria
    format, metrics tables, and priority tiers.
 7. Any general formatting rules? (tables vs. prose, appendix conventions, etc.)
 
 Output format — a markdown document titled "Writing Standards" with sections for
 Document Formats (with structural outlines for each type), Writing Style,
-Metric Conventions, FAQ Style, and General Rules. If a BRD template was
-provided, include a detailed "BRD Conventions" section.
+Metric Conventions, FAQ Style, and General Rules. If a PRD template was
+provided, include a detailed "PRD Conventions" section.
 
 ---
 
-## Section 4: Decision Log
+## Section 4: Key Decisions & Constraints
 
 Ask me about:
 1. Strategic decisions that are settled and should not be revisited
@@ -143,11 +144,15 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
    to separate the four sections. For global context, also offer to create
    `~/.claude/CLAUDE.md`.
 
-   **Gemini CLI or Antigravity:**
-   Create or append to `GEMINI.md` in the project root (Gemini CLI) or
-   `.gemini/GEMINI.md` (Antigravity), using H1 headers to separate the
-   four sections. For global context, also offer to create
-   `~/.gemini/GEMINI.md` (works for both tools).
+   **Gemini CLI:**
+   Create or append to `GEMINI.md` in the project root, using H1 headers
+   to separate the four sections. For global context, also offer to create
+   `~/.gemini/GEMINI.md`.
+
+   **Antigravity:**
+   Create or append to `.gemini/GEMINI.md` in the project root, using H1
+   headers to separate the four sections. For global context, also offer
+   to create `~/.gemini/GEMINI.md`.
 
    **Codex CLI:**
    Create or append to `AGENTS.md` in the project root, using H1 headers
@@ -185,7 +190,9 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
 
    **Other / generic:**
    Create four markdown files in a `.ai/context/` directory and instruct
-   the user to reference them in their tool's configuration.
+   the user to reference them in their tool's configuration. (`.ai/context/`
+   is a suggested convention — adjust the path if your tool expects files
+   elsewhere.)
 
 4. Remind me that I can update these files anytime by asking the AI to make
    changes, and that I should review them quarterly to keep them current.

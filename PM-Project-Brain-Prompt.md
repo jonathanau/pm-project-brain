@@ -95,7 +95,7 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
 ## After all four sections are complete
 
 1. Show me a summary of all four documents for final review.
-2. Ask me which AI tool I am using (Kiro, Claude Code, Gemini CLI, Antigravity, Codex CLI, Cursor, GitHub Copilot, Windsurf, or other).
+2. Ask me which AI tool I am using (Kiro, Claude Code, Gemini CLI, Antigravity, Codex CLI, OpenCode, Qwen Code, Cursor, GitHub Copilot, Windsurf, or other).
 3. Based on my answer, create the files in the correct format and location:
 
    **Kiro IDE or Kiro CLI:**
@@ -132,6 +132,16 @@ a "Things We Do NOT Do" section and a "Canceled Initiatives" section.
    Create or append to `AGENTS.md` in the project root, using H1 headers
    to separate the four sections. For global context, also offer to create
    `~/.codex/AGENTS.md`.
+
+   **OpenCode:**
+   Create or append to `AGENTS.md` in the project root, using H1 headers
+   to separate the four sections. For global context, also offer to create
+   `~/.config/opencode/AGENTS.md`.
+
+   **Qwen Code:**
+   Create or append to `QWEN.md` in the project root (or `.qwen/QWEN.md`),
+   using H1 headers to separate the four sections. For global context,
+   also offer to create `~/.qwen/QWEN.md`.
 
    **Cursor:**
    Create four `.mdc` files in `.cursor/rules/`:

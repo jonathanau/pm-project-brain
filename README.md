@@ -19,16 +19,16 @@ After the interview, the AI generates context files in the correct format for yo
 |---|---|---|---|
 | Claude Code | `CLAUDE.md` (project root) | `~/.claude/CLAUDE.md` | Single markdown file |
 | Codex CLI | `AGENTS.md` (project root) | `~/.codex/AGENTS.md` | Single markdown file |
-| OpenCode | `AGENTS.md` (project root) | `~/.config/opencode/AGENTS.md` | Single markdown file |
-| Qwen Code | `QWEN.md` (project root or `.qwen/QWEN.md`) | `~/.qwen/QWEN.md` | Single markdown file |
 | Antigravity | `.gemini/GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file (same as Gemini CLI) |
 | Gemini CLI | `GEMINI.md` (project root) | `~/.gemini/GEMINI.md` | Single markdown file |
 | Cursor | `.cursor/rules/*.mdc` | User-level rules in Settings | Markdown with YAML front matter |
 | GitHub Copilot | `.github/copilot-instructions.md` | Settings > Copilot > Custom Instructions | Single markdown file |
+| OpenCode | `AGENTS.md` (project root) | `~/.config/opencode/AGENTS.md` | Single markdown file |
+| Qwen Code | `QWEN.md` (project root or `.qwen/QWEN.md`) | `~/.qwen/QWEN.md` | Single markdown file |
 | Windsurf | `.windsurf/rules/*.md` | `global_rules.md` via Settings | Markdown (12K char limit per file) |
 | Kiro IDE / CLI | `.kiro/steering/*.md` | `~/.kiro/steering/*.md` | Markdown with YAML front matter |
 
-For single-file tools (Claude Code, Codex CLI, OpenCode, Qwen Code, Gemini CLI, Antigravity, GitHub Copilot), the AI will combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), it will create one file per section.
+For single-file tools (Claude Code, Codex CLI, Gemini CLI, Antigravity, GitHub Copilot, OpenCode, Qwen Code), the AI will combine all sections into one file using H1 headers as separators. For multi-file tools (Kiro, Cursor, Windsurf), it will create one file per section.
 
 ## How to use
 

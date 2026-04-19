@@ -6,8 +6,9 @@ or writing standards.
 We will create four context documents through an interactive interview. Ask me
 the questions below one section at a time. After each section, show me the
 draft for my review before moving to the next. I can provide answers directly,
-or I can share documents (PRFAQs, PRDs, one-pagers, OP docs, strategy decks)
-for you to extract the information from.
+or I can share existing documents for you to extract the information from.
+Examples include PRFAQs (press release/FAQs), PRDs (product requirements
+documents), one-pagers, annual plans, and strategy decks.
 
 ---
 
@@ -53,12 +54,12 @@ substitute alternatives."
 
 Ask me about:
 1. What document types does your team write? (e.g., PRFAQs, PRDs,
-   one-pagers, strategy docs, OP docs) For each, what is the expected structure?
+   one-pagers, strategy docs, annual/operational plans) For each, what is the expected structure?
 2. What is your team's writing voice? (e.g., data-driven, concise, narrative)
 3. How do you refer to your team ("we") and your users ("customers")?
 4. What are your conventions for presenting metrics? (time periods, abbreviations,
    precision)
-5. How do you structure FAQs in documents?
+5. How do you structure frequently asked questions (FAQs) in documents?
 6. Do you have a PRD template? If so, share it and I will extract the
    structure, section names, conventions for user stories, acceptance criteria
    format, metrics tables, and priority tiers.

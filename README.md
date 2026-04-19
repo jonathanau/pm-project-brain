@@ -8,7 +8,7 @@ The prompt walks you through four sections:
 
 1. **Product Context**: vision, codenames, business models, customer segments, metrics, infrastructure, geographic footprint, features, active/paused initiatives
 2. **Terminology & Acronyms**: product, technical, business, infrastructure, platform, and organizational terms, kept consistent everywhere
-3. **Writing Standards**: document formats (PRFAQs, PRDs, one-pagers, etc.), writing voice, metric conventions, FAQ style, PRD templates, and formatting rules
+3. **Writing Standards**: document formats like PRFAQs (press release/FAQs), PRDs (product requirements documents), and one-pagers; writing voice; metric conventions; frequently asked questions (FAQ) style; PRD templates; and formatting rules
 4. **Key Decisions & Constraints**: settled strategic/product/technical/pricing decisions, things you don't do, canceled initiatives, and open questions
 
 After the interview, the AI generates context files in the correct format for your tool.

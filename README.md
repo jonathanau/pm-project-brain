@@ -1,5 +1,7 @@
 # PM Project Brain
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A reusable prompt that helps product managers set up persistent AI context ("project brain") for any AI coding assistant. Run it once, answer the interview questions, and your product knowledge, terminology, writing standards, and key decisions load automatically in every future conversation.
 
 ## What it does
